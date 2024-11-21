@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "deploy": "deployctl deploy --project=debt --include=deno.json,deno.lock,build,package.json,server,build --entrypoint=./server.ts",
+    "start": "deno run -A ./server.ts"
+  },
+  "imports": {
+    "@express": "npm:express@4.18.2"
+  }
+}
