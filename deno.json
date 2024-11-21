@@ -1,9 +1,28 @@
 {
   "tasks": {
-    "deploy": "deployctl deploy --project=tokly --include=deno.json,deno.lock,build,package.json,server,build --entrypoint=./server.ts",
-    "start": "deno run -A ./server.ts"
+    "deploy": "deployctl deploy --prod --project=tokly --include=deno.json,build,package.json,server.ts,build --entrypoint=./build/index.js",
+    "start": "deno run -A  ./build/index.js"
   },
-  "imports": {
-    "@express": "npm:express@4.18.2"
+  "lint": {
+    "exclude": [
+      "./src",
+      "./src/**/*.ts",
+      "./src/**/*.svelte",
+      "./build"
+    ]
+  },
+  "deploy": {
+    "project": "4101ab5d-f41b-4294-b36d-d14ae6107e8a",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [
+      "deno.json",
+      "build",
+      "package.json",
+      "server.ts",
+      "build"
+    ],
+    "entrypoint": "build\\index.js"
   }
 }
