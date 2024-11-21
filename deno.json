@@ -1,7 +1,7 @@
 {
   "tasks": {
     "deploy": "deployctl deploy --prod --project=tokly --include=deno.json,build,package.json,server.ts,build --entrypoint=./build/index.js",
-    "start": "deno run -A  ./build/index.js"
+    "start": "deno run -A  ./server.ts"
   },
   "lint": {
     "exclude": [
@@ -14,6 +14,7 @@
   "deploy": {
     "project": "4101ab5d-f41b-4294-b36d-d14ae6107e8a",
     "exclude": [
+      "**/node_modules",
       "**/node_modules"
     ],
     "include": [
@@ -23,6 +24,6 @@
       "server.ts",
       "build"
     ],
-    "entrypoint": "build\\index.js"
+    "entrypoint": "server.ts"
   }
 }
