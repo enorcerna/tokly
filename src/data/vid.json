@@ -1,0 +1,53 @@
+{
+  "code": 0,
+  "msg": "success",
+  "processed_time": 0.5054,
+  "data": {
+    "id": "7430640008987512071",
+    "region": "NP",
+    "title": "Most awaited song \"Bardali\" by Sushant Kc ft. Indrakala Rai is now on YouTube together with star casting like, Swastima Khadka, Anna Sharma, Shristi Shrestha, Nishchal Basnet and Aakriti Rajbhandari 😍 #sushantkc #newsong #bardali #routineofnepalimusic ",
+    "cover": "/video/cover/7430640008987512071.webp",
+    "duration": 23,
+    "play": "/video/media/play/7430640008987512071.mp4",
+    "wmplay": "/video/media/wmplay/7430640008987512071.mp4",
+    "hdplay": "/video/media/hdplay/7430640008987512071.mp4",
+    "size": 2130972,
+    "wm_size": 2342709,
+    "hd_size": 25302004,
+    "music": "/video/music/7430640008987512071.mp3",
+    "music_info": {
+      "id": "7430640081356393233",
+      "title": "original sound - ronbmusic",
+      "play": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tiktok-obj/7430640065442777873.mp3",
+      "author": "Routine of Nepali Music",
+      "original": true,
+      "duration": 23,
+      "album": ""
+    },
+    "play_count": 1473310,
+    "digg_count": 99689,
+    "comment_count": 216,
+    "share_count": 2624,
+    "download_count": 3226,
+    "collect_count": 6226,
+    "create_time": 1730080704,
+    "anchors": null,
+    "anchors_extras": "",
+    "is_ad": false,
+    "commerce_info": {
+      "adv_promotable": false,
+      "auction_ad_invited": false,
+      "branded_content_type": 0,
+      "with_comment_filter_words": false
+    },
+    "commercial_video_info": "",
+    "item_comment_settings": 0,
+    "mentioned_users": "",
+    "author": {
+      "id": "7368873314523792401",
+      "unique_id": "ronbmusic",
+      "nickname": "Routine of Nepali Music",
+      "avatar": "/video/avatar/7430640008987512071.jpeg"
+    }
+  }
+}
