@@ -8,9 +8,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			out: 'build'
-		}),
+		adapter: adapter(),
 		alias: {
 			'@/*': './src/*'
 		}
