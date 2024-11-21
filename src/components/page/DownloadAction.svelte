@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
 	import { Button } from '../ui/button';
-	import { toast } from 'svelte-sonner';
+	// import { toast } from 'svelte-sonner';
 	import type { HTMLButtonAttributes } from 'svelte/elements';
 	import { downloadVideo } from '@/services/api';
 	let disabled = $state(false);
@@ -17,7 +17,7 @@
 			await downloadVideo(link, idVideo as string);
 			setTimeout(() => {
 				disabled = false;
-				toast.success('Descargado');
+				// toast.success('Descargado');
 			}, 1000);
 		}
 	};
