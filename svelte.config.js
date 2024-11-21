@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from 'svelte-adapter-deno';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -9,11 +9,10 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			out: './build'
+			out: 'build'
 		}),
 		alias: {
-			'@/*': './src/*',
-			'@/components/*': './src/components/*'
+			'@/*': './src/*'
 		}
 	}
 };
